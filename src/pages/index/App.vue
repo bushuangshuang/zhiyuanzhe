@@ -1,0 +1,36 @@
+<template>
+  <div id="app">
+    <!--<Header menu-title="首页"></Header>-->
+    <!--<div id="nav">
+      <router-link to="/page1">page1</router-link> |
+      <router-link to="/page2">page2</router-link>
+    </div>-->
+    <router-view/>
+    <!--<Footer></Footer>-->
+  </div>
+</template>
+
+<style>
+  body{
+    font-size:16px!important;
+  }
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+</style>

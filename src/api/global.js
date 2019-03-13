@@ -1,0 +1,1 @@
+export const serverSrc = 'http://202.85.222.5:8225'
